@@ -1,0 +1,33 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+    border-top: 1px solid #fe0000 ;
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+.logo {
+    width: 100px;
+    float: left;
+    padding-top: 15px;
+}
+h1.site_title {
+    color: #e31e24;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: normal;
+    font-size: 1.33333333333em;
+}
+.spacer {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
